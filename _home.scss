@@ -80,7 +80,7 @@ main {
             position: absolute;
             top: 25%;
             left: 120px;
-            font-size: 3.5rem;
+            font-size: 2.5rem;
             font-weight: 600;
             color: $cor-branco;
             z-index: 999;
@@ -240,7 +240,7 @@ main {
 
 
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
     .header {
         @include header-520;
     }
@@ -379,7 +379,7 @@ main {
     }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 500px) {
     .header {
         @include header-520;
     }
@@ -431,7 +431,7 @@ main {
                 position: absolute;
                 top: 15%;
                 left: 30px;
-                font-size: 1.5rem;
+                font-size: 1.2rem;
                 font-weight: 600;
                 color: $cor-branco;
                 z-index: 999;
